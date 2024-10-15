@@ -114,7 +114,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
 
 //mediafire dl
 cmd({
-    pattern: "mediafire1",
+    pattern: "mediafire",
     alias: ["mfire"],
     desc: "download mfire files",
     category: "download",
